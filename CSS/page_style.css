@@ -1,0 +1,16 @@
+.row-content{margin:0px auto;padding:50px 0px 50px 0px;border-bottom: 2px ridge;min-height:400px;}
+.jumbotron{padding:0px 0px 0px 0px;margin:0px auto;//color:floralwhite;}
+.top-form{background:#3b5998;font-weight:bold;}
+.row-content{background-color:floralwhite;}
+.left-bar{//background-color: #DCDCDC;width: 250px;  height:100vh;padding: 20px;border: 5px ;}
+ul{list-style-type:none;}
+.tabs {list-style-type:disc;text-align:justify;}
+li{ padding:10px 0 10px 0; }
+
+.panel-stuff{font-size:12px}
+.container-fluid a { 
+    color: white;
+}
+body {
+    overflow-x:hidden;overflow-y:hidden;
+}

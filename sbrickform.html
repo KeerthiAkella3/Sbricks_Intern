@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Design for Bootstrap</title>
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+    <style>
+body {overflow-x:hidden!important}
+</style>
+</head>
+
+<body>
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+	
+	<header>
+       
+        <!--Navigation-->
+        <nav class="navbar" style="margin:auto;background:#1D2F5D;">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                     <a href="sbrickform.html"><img  class="img-rounded" style="margin:0px 10px 0px -30px" src="img/logos.jpg" alternate="SBricks"  height="60px" ></a>
+                    
+					<form class="navbar-form navbar-right" role="search">
+                        <div class="form-group waves-effect waves-light">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+						<div class="form-group waves-effect waves-light">
+                            <input type="password" class="form-control"  id="password" placeholder="Password">
+                        </div>
+						<div class="form-group waves-effect ">
+                           <p>
+								<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+								<label for="filled-in-box">Remember Me</label>
+							</p>
+                        </div>
+						<a class="btn-floating blue" href="services.html" style="width: 51px;line-height: 31px;padding: 3px;">Sign In</a>
+					</form>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navigation-->
+
+    </header>
+	
+	
+	<main>
+       
+        <!--Main Container-->
+        <div class="container">
+
+            <!--First Row-->
+            <div class="row">
+
+                <!--First Column-->
+				<div class="col-md-1"></div>
+                <div class="col-md-4">
+					<div class="carousel slide" id="mycarousel" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                          <li class="active" data-target="#mycarousel" data-slide-to="0"></li>
+                          <li  data-target="#mycarousel" data-slide-to="1"></li>
+                          <li  data-target="#mycarousel" data-slide-to="2"></li>
+                           <li  data-target="#mycarousel" data-slide-to="3"></li>
+
+
+                      </ol>
+                      <!--wrapper for slides-->
+                      <div class="carousel-inner" role="listbox">
+
+                          <div class="item active">
+                              <img src="img/home-cleaning.jpg" class="">
+                              <div class="carousel-caption">
+
+                               <!--   <h3 style="color:black;font-weight:bold">Enjoy your free time while we clean your house</h3>-->
+                              </div>
+                          </div>
+
+
+                          <div class="item">
+                              <img src="img/laundry_slide.jpg" class="img-responsive">
+                              <div class="carousel-caption">
+                               <!--   <h3 style="color:black;font-weight:bold">Your Laundry Saviour is here</h3>-->
+                              </div>
+                          </div>
+
+
+                          <div class="item ">
+                              <img src="img/mattress_cleaning.png" class="img-responsive">
+                              <div class="carousel-caption">
+
+                               <!--    <h3 style="color:black;font-weight:bold">Mattress UV Sterlizarion for your better health</h3>-->
+                           
+                              </div>
+                          </div>
+
+                           <div class="item ">
+                              <img src="img/pest-control-slide.jpg" class="img-responsive">
+                              <div class="carousel-caption">
+                                  <!-- <h3 style="color:black;font-weight:bold">Its your Home Make it Pest free</h4>-->
+                           
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <!--/.First Column-->
+					<div class="col-md-2"></div>
+                <!--Second Column-->
+                <div class="col-md-4">
+					<label style="font-family: Georgia, serif;font-size:15px;margin-top:30px;font-weight:bold;">Check Availability</label>
+                                            <div cass="form-group">
+                                             
+                                              <div class="form-group waves-effect waves-light">
+                            <input  class="form-control"  id="PIN" placeholder="Enter PIN">
+                        </div>
+                            <a href="pincheck.html"  class="btn-floating orange" style="width:50px;padding:4px;margin-top: -5px;line-height: 32px;">Check</a>
+
+                                          </div>
+
+                                          <!--Reviews go here-->
+  										<br>
+                                             
+  										<div class="review">
+  										 <p style="font-size:15px;">I opened the cover, I actually like the way they packed the clothes. They were neat and not too perfumed.
+										 I counted the pieces of clothing they were 32. So, I called the guy and intimated the same.                         
+  </p> </div>
+                </div>
+                <!--/.Second Column-->
+
+            </div>
+            <!--/.First Row-->
+            
+             <div class="row">
+
+                <!--First Column-->
+                <div class="col-md-3">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="">
+						<p style="text-align:center;font-family: Georgia, serif;">Secure Payement</p>
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="img/secure_payment.png" class="img-responsive" alt="" width="50%" style="display:block;margin:auto;">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content" style="font-family: Georgia, serif;">
+                            <p style="font-size:15px;">Our Web and Mobile interfaces are not only easy to use, but also safe. We use secure payment gateways which keep your transactions Safe & Secure</p>
+                        </div>
+                        </div>
+                    <!--Image Card-->
+
+                </div>
+                <!--/.First Column-->
+
+                <!--Second Column-->
+                <div class="col-md-3">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="">
+						<p style="text-align:center;font-family: Georgia, serif;">Quality Service</p>
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="img/quality_service.png" class="img-responsive" alt="" width="50%" style="display:block;margin:auto;">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content" style="font-family: Georgia, serif;">
+                            <p style="font-size:15px;">All the services provided by us are carried out by our well trained, professional and groomed service personnel. SBricks gives its 100% commitment to meet your expectations</p>
+                        </div>
+                    </div>
+                    <!--Image Card-->
+
+                </div>
+                <!--/.Second Column-->
+
+                <!--Third Column-->
+                <div class="col-md-3">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="">
+						<p style="text-align:center;font-family: Georgia, serif;">Trained Professionals</p>
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="img/trained_professionals.png" class="img-responsive" alt="" width="50%" style="display:block;margin:auto;">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content" style="font-family: Georgia, serif;">
+                            <p style="font-size:15px;">Our service providers are efficient and have gone through rigorous background verification and scrutinization process. They're trained to deliver best results.</p>
+                        </div>
+                        </div>
+                    <!--Image Card-->
+
+                </div>
+                <!--/.Third Column-->
+				 <!--Third Column-->
+                <div class="col-md-3">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="">
+						<p style="text-align:center;font-family: Georgia, serif;">Easy Booking</p>
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="img/easy_booking.png" class="img-responsive" alt="" width="50%" style="display:block;margin:auto;">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content" style="font-family: Georgia, serif;">
+                             <p style="font-size:15px;">Our awesome & easy to use Website and Mobile applications, provide easy booking process in just 3 steps. 
+									Browse and select services, Fill details & Checkout.</p>
+                        </div>
+                         </div>
+                    <!--Image Card-->
+
+                </div>
+                <!--/.Third Column-->
+
+            </div>
+            <!--/.Second Row-->
+			
+      <div class="row">
+          <div class="page header" style="background-color:#f5f5f5;center-block;margin-left:0px;margin-bottom:20px;margin-top:20px;"><span style="padding:150px"></span>
+		  <img src="img/testimonials_head.png" style="align:middle"></div>
+    
+
+        </div>
+        <!--/.Main Container-->
+
+    </main>
+	
+	
+<footer class="page-footer blue center-on-small-only">
+        <div  class="row">             
+                  <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1" style="color:#3b5998">
+                      <ul class="list-unstyled" style="font-weight:bolder">
+                          <li><a style="color:white"  href="#">Home</a></li>
+                           <li><a style="color:white"  href="aboutus.html">About</a></li>
+                          <li><a style="color:white"  href="#">Menu</a></li>
+                          <li><a style="color:white"  href="contactus.html">Contact</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-xs-6 col-sm-5">
+                      <ul class="list-unstyled" style="font-weight:bolder;font-color:white">
+                          <li><a style="color:white" href="#">Contact Us</a></li>
+                           <li><a style="color:white"  href="#">Facility Mangement</a></li>
+                          <li><a style="color:white"  href="#">Privacy Policy</a></li>
+                          <li><a style="color:white"  href="#">Vendor Registration</a></li>
+                          <li><a style="color:white"  href="#">IT Legal Compliance</a></li>
+                          <li><a style="color:white"  href="#">Terms & Conditions</a></li>
+                          
+                      </ul>
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                      <div class="nav navbar-nav" style="padding: 40px 10px;">
+                           <a href="#"><img  class="img-rounded" style="" src="img/plus.jpg" height="40px" ></a>
+                          <a href="#"><img  class="img-rounded" style="" src="img/facebook.jpg" height="40px" ></a>
+                          <a href="#"><img  class="img-rounded" style="" src="img/linkedin.jpg" height="40px" ></a>
+                          <a href="#"><img  class="img-rounded" style="" src="img/twitter.jpg" height="40px" ></a>
+                          <a href="#"><img  class="img-rounded" style="" src="img/youtube.jpg" height="40px" ></a>
+                      </div>
+                  </div>
+                  
+              </div>
+    </footer>
+
+</body>
+
+</html>
